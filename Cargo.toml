@@ -1,0 +1,10 @@
+[package]
+name = "yew"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# csr is for client side rendering, not needed if making a lib
+yew = { version = "0.20", features = ["csr"] }
