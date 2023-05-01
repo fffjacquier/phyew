@@ -3,13 +3,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yew!</title>
+    <style>
+        *, *::before, *::after {
+        box-sizing: border-box;
+        }
 
-<link rel="preload" href="/yew-4b16cbe53b7b29e2_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/yew-4b16cbe53b7b29e2.js"></head>
+        /*
+        2. Remove default margin
+        */
+
+
+        /*
+        3. Allow percentage-based heights in the application
+        */
+        html, body {
+            height: 100%;
+        }
+
+        /*
+        Typographic tweaks!
+        4. Add accessible line-height
+        5. Improve text rendering
+        */
+        body {
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /*
+        6. Improve media defaults
+        */
+        img, picture, video, canvas, svg {
+            display: block;
+            max-width: 100%;
+        }
+
+        /*
+        7. Remove built-in form typography styles
+        */
+        input, button, textarea, select {
+            font: inherit;
+        }
+
+        /*
+        8. Avoid text overflows
+        */
+        p, h1, h2, h3, h4, h5, h6 {
+            overflow-wrap: break-word;
+        }
+
+        /*
+        9. Create a root stacking context
+        */
+        #root, #__next {
+            isolation: isolate;
+        }
+
+        /* proper link whrn no href*/
+        a {
+            cursor: pointer;
+        }
+    </style>
+
+<link rel="preload" href="/yew-a164034ca36937f6_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/yew-a164034ca36937f6.js"></head>
 <body>
 
 
-<script type="module">import init from '/yew-4b16cbe53b7b29e2.js';init('/yew-4b16cbe53b7b29e2_bg.wasm');</script><script>(function () {
+<script type="module">import init from '/yew-a164034ca36937f6.js';init('/yew-a164034ca36937f6_bg.wasm');</script><script>(function () {
     var protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
     var url = protocol + '//' + window.location.host + '/_trunk/ws';
     var poll_interval = 5000;

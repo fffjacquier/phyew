@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Dreamland",
+        "author": "Bob Lazar",
+        "image_url": "https://conexaoufo.com/wp-content/uploads/conexao_UFO_featured_bob-lazar.jpg",
+        "video_url": ""
+    },
+    {
+        "id": 2,
+        "title": "Seul",
+        "author": "Gérard d'Aboville",
+        "image_url": "https://static.fnac-static.com/multimedia/Images/FR/NR/78/95/01/103800/1540-1/tsp20221214061545/Seul.jpg",
+        "video_url": "https://www.youtube.com/embed/QXNiZFGWW_E?start=2112"
+    },
+     {
+        "id": 3,
+        "title": "How to read water",
+        "author": "Tristan Gooley",
+        "image_url": "https://m.media-amazon.com/images/I/71fuOTJKO+L._AC_UF1000,1000_QL80_.jpg",
+        "video_url": "https://www.youtube.com/watch?v=jOQmN7EM5NE"
+    },
+     {
+        "id": 4,
+        "title": "Randonnées du vertige",
+        "author": "Pascal Sombardier",
+        "image_url": "https://www.artmontana.fr/wp-content/uploads/2017/02/rando-vertige-pic-de-bure.jpg",
+        "video_url": ""
+    },
+     {
+        "id": 5,
+        "title": "Par les chemins",
+        "author": "Robert McFarlane",
+        "image_url": "https://quotefancy.com/media/wallpaper/800x450/6593210-Robert-Macfarlane-Quote-We-are-part-mineral-beings-too-our-teeth.jpg",
+        "video_url": ""
+    },
+     {
+        "id": 6,
+        "title": "The search for the genuine",
+        "author": "Jim Harrison",
+        "image_url": "https://www.azquotes.com/picture-quotes/quote-the-simple-act-of-opening-a-bottle-of-wine-has-brought-more-happiness-to-the-human-race-jim-harrison-81-31-45.jpg",
+        "video_url": ""
+    }
+]

@@ -8,5 +8,7 @@ edition = "2021"
 [dependencies]
 # csr is for client side rendering, not needed if making a lib
 yew = { version = "0.20", features = ["csr"] }
-uuid = { version = "1.3.1", features = ["v4", "fast-rng"] }
-getrandom = { version = "0.2", features = ["js"] }
+# gloo-console = { version = "0.2.3" }
+# gloo-net = "0.2"
+# serde = { version = "1.0", features = ["derive"] }
+# wasm-bindgen-futures = "0.4"
